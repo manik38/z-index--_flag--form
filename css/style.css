@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  font-family: 'Poppins', sans-serif !important;
+}
+.form-section {
+  width: 100%;
+  padding: 80px 0px;
+}
+.main-box {
+  width: 52%;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+.main-box .left {
+  margin-right: 20px;
+}
+.main-section .left img {
+  width: 100%;
+  height: auto;
+}
+
+.main-box .right {
+  margin-left: 20px;
+}
+.main-box .right h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-box .right input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin: 15px 0px;
+  padding: 5px 0px;
+}
+.main-box .right .name input {
+  width: 48%;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin: 11px 0px;
+  padding: 5px 0px;
+}
+.main-box .right .name .first-name {
+  margin-right: 7px;
+}
+.main-box .right input::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+.main-box .right select {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin: 10px 0px;
+  padding: 5px 0px;
+  font-family: 'Poppins', sans-serif;
+}
+.main-box .right select:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  /* font-family: 'Poppins', sans-serif; */
+}
+.main-box .right input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+.main-box .right .btn button {
+  background-color: #333;
+  color: white;
+  padding: 11px 35px;
+  font-size: 14px;
+  margin: 35px 0px 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.zindex {
+  padding: 80px 0px;
+  width: 100%;
+  height: 600px;
+  background-color: #fff;
+}
+.zindex h2 {
+  text-align: center;
+  color: #e329c7;
+}
+.zindex .parent {
+  width: 400px;
+  height: 400px;
+  background-color: #624d4d;
+  position: relative;
+  margin: auto;
+}
+.zindex .parent .child1 {
+  width: 100px;
+  height: 100px;
+  background-color: #db2c1d;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.zindex .parent .child2 {
+  width: 100px;
+  height: 100px;
+  background-color: #11cdd4;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
+}
+.zindex .parent .child3 {
+  width: 100px;
+  height: 100px;
+  background-color: #d918c5;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  z-index: 3;
+}
+.zindex .parent .child4 {
+  width: 100px;
+  height: 100px;
+  background-color: #345eeb;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  z-index: 4;
+}
+
+.flag {
+  width: 100%;
+  height: 400px;
+  background-color: #968e68;
+  padding: 80px 0px;
+}
+.flag h2 {
+  text-align: center;
+  color: #b141e0;
+}
+.flag .main-box {
+  width: 400px;
+  height: 250px;
+  background-color: green;
+  margin: auto;
+  position: relative;
+}
+.flag .main-box .inter-box {
+  width: 130px;
+  height: 130px;
+  background-color: red;
+  left: 118px;
+  top: 65px;
+  position: absolute;
+  border-radius: 50%;
+}
